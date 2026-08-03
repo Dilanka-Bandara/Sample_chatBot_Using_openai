@@ -3,7 +3,7 @@ import pandas as pd
 from openai import OpenAI
 
 # Create OpenAI client (new method)
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='My Api Key')
 
 # Load dataset
 df = pd.read_csv('Loan_details.csv')
